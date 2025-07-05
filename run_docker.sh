@@ -5,7 +5,7 @@
 # Verifica se os parâmetros foram passados
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
   echo "Uso: ./run_docker.sh <URL> <REQUESTS> <CONCURRENCY>"
-  echo "Exemplo: ./run_docker.sh http://google.com 1000 10"
+  echo "Exemplo: ./run_docker.sh http://google.com 10 10"
   exit 1
 fi
 

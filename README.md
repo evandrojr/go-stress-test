@@ -36,10 +36,12 @@ Para construir a imagem Docker e executar a aplicação em um container:
     ```bash
     docker build -t stress-test-app .
     ```
-3.  Execute o container Docker, substituindo os valores pelos seus:
+3.  Execute o container Docker usando o script `run_docker.sh`, substituindo os valores pelos seus:
     ```bash
-    docker run stress-test-app --url=http://exemplo.com --requests=1000 --concurrency=10
+    ./run_docker.sh http://exemplo.com 1000 10
     ```
+    O script `run_docker.sh` irá automaticamente construir a imagem (se necessário) e executar o container com os parâmetros fornecidos.
+    
 
 ## Parâmetros CLI
 
