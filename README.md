@@ -30,7 +30,7 @@ Para construir a imagem Docker e executar a aplicação em um container:
 
 1.  Navegue até o diretório raiz do projeto:
     ```bash
-    cd /home/dg/pos-go/stress-test
+    cd stress-test
     ```
 2.  Construa a imagem Docker (você só precisa fazer isso uma vez ou quando o código mudar):
     ```bash
